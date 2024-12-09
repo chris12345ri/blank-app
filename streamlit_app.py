@@ -20,4 +20,4 @@ if uploaded_file:
                 recommendations = generate_recommendations(extracted_text["skills"])
                 st.write("Foreslåede jobmuligheder og kurser:")
                 st.json(recommendations)
-            )
+            
